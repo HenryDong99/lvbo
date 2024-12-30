@@ -25,7 +25,7 @@ var S = {
       if (i !== -1) {
         S.UI.simulate(decodeURI(action).substring(i + 3));
       } else {
-        S.UI.simulate('|#icon heart');
+        S.UI.simulate('|#countdown 3||小董祝|小黄瓜|元旦快乐|身体健康|工作顺利|万事如意|拥有好心情|拥抱新生活|#icon heart|#icon heart-empty|#icon heart');
       }
 
       S.Drawing.loop(function () {
